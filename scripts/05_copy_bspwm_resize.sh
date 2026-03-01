@@ -8,3 +8,4 @@ DEST_FILE="${DEST_DIR}/bspwm_resize"
 
 mkdir -p "${DEST_DIR}"
 cp "${SOURCE_FILE}" "${DEST_FILE}"
+chmod +x "${DEST_FILE}"
