@@ -5,6 +5,9 @@ set -euo pipefail
 # Lista de paquetes base que queremos instalar en Parrot.
 PACKAGES=(
   zsh
+  zsh-autocomplete
+  zsh-autosuggestions
+  zsh-syntax-highlighting
   feh
   bspwm
   kitty
