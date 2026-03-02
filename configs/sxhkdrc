@@ -7,7 +7,7 @@ super + Return
 	/usr/bin/kitty
 
 # program launcher
-super + @d
+super + d
 	/usr/bin/rofi -show run
 
 # make sxhkd reload its configuration files:
