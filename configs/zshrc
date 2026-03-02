@@ -10,6 +10,23 @@ source /home/claymore/powerlevel10k/powerlevel10k.zsh-theme
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+# Custom Aliases
+# -----------------------------------------------
+# bat
+alias cat='bat'
+alias catn='bat --style=plain'
+alias catnp='bat --style=plain --paging=never'
+ 
+# ls
+alias ll='lsd -lh --group-dirs=first'
+alias la='lsd -a --group-dirs=first'
+alias l='lsd --group-dirs=first'
+alias lla='lsd -lha --group-dirs=first'
+alias ls='lsd --group-dirs=first'
+
+# ENV_VARIABLES
+export LS_COLORS="di=34"
+
 # History
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
